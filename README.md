@@ -45,16 +45,16 @@ update/functionalities : http://localhost:8000/user/update  --- To update user d
 profile/functionalities : http://localhost:8000/user/profile  --- To see profile user must login first<br>
 
 # Format 
-registration : {
-                    "name": "string",
-                    "email": "user@example.com",
-                    "password": "string",
-                    "age": 0
-                }
+registration : {<br>
+                    "name": "string",<br>
+                    "email": "user@example.com",<br>
+                    "password": "string",<br>
+                    "age": 0<br>
+                }<br>
 
-login : {
-            "email": "user@example.com",
-            "password": "string"
-        }
+login : {<br>
+            "email": "user@example.com",<br>
+            "password": "string"<br>
+        }<br>
 profile and update user must send token in the header .
         
